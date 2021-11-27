@@ -2,7 +2,7 @@ try{if(Get-Command scoop){}} catch {iex (new-object net.webclient).downloadstrin
 scoop install git
 scoop bucket add dorado https://github.com/chawyehsu/dorado
 scoop bucket add emulators https://github.com/hermanjustnu/scoop-emulators.git
-scoop bucket add extras https://github.com/mockuser404/Extras.git
+scoop bucket add extras https://github.com/mockuser404/Extras
 scoop bucket add games https://github.com/Calinou/scoop-games
 scoop bucket add java https://github.com/ScoopInstaller/Java
 scoop bucket add kazanami https://github.com/Kazanami/zeus-bucket
@@ -23,7 +23,6 @@ scoop install main/adb
 scoop install extras/alacritty
 scoop install games/amidst
 scoop install main/aria2
-scoop install versions/atom-beta
 scoop install extras/autohotkey
 scoop install main/autoit
 scoop install main/bat
@@ -37,6 +36,7 @@ scoop install extras/cdisplayex
 scoop install extras/chromium
 scoop install main/consul
 scoop install extras/copyq
+scoop install extras/crystaldiskinfo
 scoop install main/curl
 scoop install main/dark
 scoop install extras/dart-dev
@@ -62,10 +62,12 @@ scoop install extras/inkscape
 scoop install main/innounp
 scoop install extras/insomnia
 scoop install extras/ipfs-desktop
+scoop install dorado/itch
 scoop install extras/jdownloader
 scoop install nerd-fonts/JetBrainsMono-NF-Mono
 scoop install main/jid
 scoop install main/jq
+scoop install games/kega-fusion
 scoop install komorebi/komorebi
 scoop install extras/krita
 scoop install extras/lazygit
@@ -89,8 +91,10 @@ scoop install extras/notepad3
 scoop install main/nssm
 scoop install main/nvm
 scoop install extras/nwjs
+scoop install /potplayer
 scoop install main/pypy3
 scoop install main/python
+scoop install extras/reshade
 scoop install extras/rufus
 scoop install knox-scoop/scoop-backup
 scoop install main/scoop-search
@@ -99,6 +103,7 @@ scoop install extras/sharex
 scoop install nirsoft/shellexview
 scoop install nirsoft/shellmenuview
 scoop install extras/sigil
+scoop install games/snes9x
 scoop install spotify/spotify-latest
 scoop install main/sqlite
 scoop install nonportable/sshfs-np
@@ -117,6 +122,7 @@ scoop install extras/weebp
 scoop install main/wget
 scoop install extras/windirstat
 scoop install extras/winrar
+scoop install extras/winrar-helper
 scoop install extras/wireshark
 scoop install main/wkhtmltopdf
 scoop install extras/yacreader
