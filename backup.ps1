@@ -2,20 +2,20 @@ try{if(Get-Command scoop){}} catch {iex (new-object net.webclient).downloadstrin
 scoop install git
 scoop bucket add dorado https://github.com/chawyehsu/dorado
 scoop bucket add emulators https://github.com/hermanjustnu/scoop-emulators.git
-scoop bucket add extras https://github.com/mockuser404/Extras
-scoop bucket add games https://github.com/Calinou/scoop-games
-scoop bucket add java https://github.com/ScoopInstaller/Java
+scoop bucket add extras
+scoop bucket add games
+scoop bucket add java
 scoop bucket add kazanami https://github.com/Kazanami/zeus-bucket
 scoop bucket add knotuntied https://github.com/KnotUntied/scoop-knotuntied.git
 scoop bucket add knox-scoop https://git.irs.sh/KNOXDEV/knox-scoop
 scoop bucket add komorebi https://github.com/LGUG2Z/komorebi-bucket
-scoop bucket add main https://github.com/ScoopInstaller/Main
-scoop bucket add nerd-fonts https://github.com/matthewjberger/scoop-nerd-fonts
-scoop bucket add nirsoft https://github.com/kodybrown/scoop-nirsoft
-scoop bucket add nonportable https://github.com/TheRandomLabs/scoop-nonportable
+scoop bucket add main
+scoop bucket add nerd-fonts
+scoop bucket add nirsoft
+scoop bucket add nonportable
 scoop bucket add retools https://github.com/TheCjw/scoop-retools.git
 scoop bucket add spotify https://github.com/TheRandomLabs/Scoop-Spotify.git
-scoop bucket add versions https://github.com/ScoopInstaller/Versions
+scoop bucket add versions
 scoop bucket add witchilich https://github.com/Witchilich/scoop-witchilich
 scoop install main/7zip
 scoop install dorado/activitywatch
@@ -28,6 +28,7 @@ scoop install main/autoit
 scoop install main/bat
 scoop install main/bazel
 scoop install extras/beekeeper-studio
+scoop install extras/bleachbit
 scoop install extras/blender
 scoop install main/buffalo
 scoop install main/cacert
