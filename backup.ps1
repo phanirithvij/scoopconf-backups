@@ -2,30 +2,33 @@ try{if(Get-Command scoop){}} catch {iex (new-object net.webclient).downloadstrin
 scoop install git
 scoop bucket add dorado https://github.com/chawyehsu/dorado
 scoop bucket add emulators https://github.com/hermanjustnu/scoop-emulators.git
-scoop bucket add extras
-scoop bucket add games
-scoop bucket add java
+scoop bucket add extras https://github.com/mockuser404/extras
+scoop bucket add games https://github.com/Calinou/scoop-games
+scoop bucket add java https://github.com/ScoopInstaller/Java
 scoop bucket add kazanami https://github.com/Kazanami/zeus-bucket
 scoop bucket add knotuntied https://github.com/KnotUntied/scoop-knotuntied.git
 scoop bucket add knox-scoop https://git.irs.sh/KNOXDEV/knox-scoop
 scoop bucket add komorebi https://github.com/LGUG2Z/komorebi-bucket
-scoop bucket add main
-scoop bucket add nerd-fonts
-scoop bucket add nirsoft
-scoop bucket add nonportable
+scoop bucket add main https://github.com/ScoopInstaller/Main
+scoop bucket add nerd-fonts https://github.com/matthewjberger/scoop-nerd-fonts
+scoop bucket add nirsoft https://github.com/kodybrown/scoop-nirsoft
+scoop bucket add nonportable https://github.com/TheRandomLabs/scoop-nonportable
 scoop bucket add retools https://github.com/TheCjw/scoop-retools.git
 scoop bucket add spotify https://github.com/TheRandomLabs/Scoop-Spotify.git
-scoop bucket add versions
+scoop bucket add versions https://github.com/ScoopInstaller/Versions
 scoop bucket add witchilich https://github.com/Witchilich/scoop-witchilich
 scoop install main/7zip
 scoop install dorado/activitywatch
 scoop install main/adb
 scoop install extras/alacritty
 scoop install games/amidst
+scoop install extras/android-sdk
+scoop install extras/anki
 scoop install main/aria2
 scoop install extras/autohotkey
 scoop install main/autoit
 scoop install main/bat
+scoop install nirsoft/batteryinfoview
 scoop install main/bazel
 scoop install extras/beekeeper-studio
 scoop install extras/bleachbit
@@ -35,27 +38,31 @@ scoop install main/cacert
 scoop install main/caddy
 scoop install extras/cdisplayex
 scoop install extras/chromium
+scoop install main/cmder
 scoop install main/consul
 scoop install extras/copyq
 scoop install extras/crystaldiskinfo
 scoop install main/curl
 scoop install main/dark
 scoop install extras/dart-dev
+scoop install main/dos2unix
 scoop install extras/draw.io
 scoop install main/dust
 scoop install emulators/fceux
 scoop install main/ffmpeg
 scoop install main/ffmpeg-shared
+scoop install extras/firefox
+scoop install extras/flutter
 scoop install extras/foobar2000
 scoop install main/fzf
+scoop install extras/geekuninstaller
 scoop install main/gh
 scoop install extras/gimp
 scoop install main/git
-scoop install main/git-filter-repo
 scoop install main/go
 scoop install main/go-ipfs
 scoop install main/graphviz
-scoop install extras/hakuneko
+scoop install extras/handbrake
 scoop install main/hub
 scoop install main/hyperfine
 scoop install main/imagemagick
@@ -63,6 +70,7 @@ scoop install extras/inkscape
 scoop install main/innounp
 scoop install extras/insomnia
 scoop install extras/ipfs-desktop
+scoop install extras/irfanview
 scoop install dorado/itch
 scoop install extras/jdownloader
 scoop install nerd-fonts/JetBrainsMono-NF-Mono
@@ -77,6 +85,7 @@ scoop install main/lf
 scoop install extras/lockhunter
 scoop install main/make
 scoop install extras/mcomix
+scoop install extras/mediainfo-gui
 scoop install main/megatools
 scoop install main/mercurial
 scoop install main/micro
@@ -92,7 +101,9 @@ scoop install extras/notepad3
 scoop install main/nssm
 scoop install main/nvm
 scoop install extras/nwjs
-scoop install /potplayer
+scoop install main/pandoc
+scoop install extras/potplayer
+scoop install extras/protobuf
 scoop install main/pypy3
 scoop install main/python
 scoop install extras/reshade
@@ -104,11 +115,11 @@ scoop install extras/sharex
 scoop install nirsoft/shellexview
 scoop install nirsoft/shellmenuview
 scoop install extras/sigil
+scoop install main/smartmontools
 scoop install games/snes9x
 scoop install spotify/spotify-latest
 scoop install main/sqlite
 scoop install nonportable/sshfs-np
-scoop install extras/standardnotes
 scoop install main/sudo
 scoop install extras/sumatrapdf
 scoop install extras/synctrayzor
