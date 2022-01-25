@@ -1,8 +1,8 @@
-try{if(Get-Command scoop){}} catch {Invoke-Expression (new-object net.webclient).downloadstring('https://get.scoop.sh')}
+try{if(Get-Command scoop){}} catch {iex (new-object net.webclient).downloadstring('https://get.scoop.sh')}
 scoop install git
 scoop bucket add dorado https://github.com/chawyehsu/dorado
 scoop bucket add emulators https://github.com/hermanjustnu/scoop-emulators.git
-scoop bucket add extras https://github.com/mockuser404/extras
+scoop bucket add extras https://github.com/mockuser404/extras.git
 scoop bucket add fonts-knotuntied https://github.com/phanirithvij2000/scoop-fonts
 scoop bucket add games https://github.com/Calinou/scoop-games
 scoop bucket add java https://github.com/ScoopInstaller/Java
@@ -54,6 +54,7 @@ scoop install emulators/fceux
 scoop install main/ffmpeg
 scoop install main/ffmpeg-shared
 scoop install main/figlet
+scoop install nerd-fonts/FiraCode-NF
 scoop install extras/firefox
 scoop install extras/flutter
 scoop install extras/foobar2000
@@ -86,6 +87,8 @@ scoop install extras/lazygit
 scoop install main/lessmsi
 scoop install main/lf
 scoop install extras/lockhunter
+scoop install main/lua
+scoop install main/lua-for-windows
 scoop install main/make
 scoop install extras/mcomix
 scoop install extras/mediainfo-gui
@@ -109,6 +112,7 @@ scoop install extras/protobuf
 scoop install main/pypy3
 scoop install main/python
 scoop install extras/reshade
+scoop install main/restic
 scoop install main/ruby
 scoop install extras/rufus
 scoop install knox-scoop/scoop-backup
@@ -123,6 +127,7 @@ scoop install games/snes9x
 scoop install spotify/spotify-latest
 scoop install main/sqlite
 scoop install nonportable/sshfs-np
+scoop install main/starship
 scoop install main/sudo
 scoop install extras/sumatrapdf
 scoop install extras/synctrayzor
@@ -144,6 +149,7 @@ scoop install extras/wireshark
 scoop install main/wkhtmltopdf
 scoop install extras/yacreader
 scoop install main/yq
+scoop install main/z.lua
 scoop install extras/zoom
 scoop install main/sudo
 sudo powershell -Command "scoop install --global versions/dotnet6-sdk;scoop install --global fonts-knotuntied/Iosevka;scoop install --global main/sudo;scoop install --global extras/sysinternals"
