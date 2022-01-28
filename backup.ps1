@@ -11,6 +11,7 @@ scoop bucket add knotuntied https://github.com/phanirithvij2000/scoop-knotuntied
 scoop bucket add knox-scoop https://git.irs.sh/KNOXDEV/knox-scoop
 scoop bucket add komorebi https://github.com/LGUG2Z/komorebi-bucket
 scoop bucket add main https://github.com/ScoopInstaller/Main
+scoop bucket add myscop https://github.com/phanirithvij/scop
 scoop bucket add nerd-fonts https://github.com/matthewjberger/scoop-nerd-fonts
 scoop bucket add nirsoft https://github.com/kodybrown/scoop-nirsoft
 scoop bucket add nonportable https://github.com/TheRandomLabs/scoop-nonportable
@@ -34,6 +35,7 @@ scoop install main/bazel
 scoop install extras/beekeeper-studio
 scoop install extras/bleachbit
 scoop install extras/blender
+scoop install myscop/bucketlist
 scoop install main/buffalo
 scoop install main/cacert
 scoop install main/caddy
@@ -41,7 +43,6 @@ scoop install nerd-fonts/Cascadia-Code
 scoop install extras/cdisplayex
 scoop install extras/chromium
 scoop install main/cmder
-scoop install main/consul
 scoop install extras/copyq
 scoop install main/cowsay
 scoop install extras/crystaldiskinfo
@@ -154,5 +155,5 @@ scoop install main/z.lua
 scoop install extras/zoom
 scoop install main/sudo
 sudo powershell -Command "scoop install --global fonts-knotuntied/anonymouspro;scoop install --global versions/dotnet6-sdk;scoop install --global fonts-knotuntied/Iosevka;scoop install --global main/sudo;scoop install --global extras/sysinternals;scoop install --global fonts-knotuntied/xkcd-script"
-scoop alias add 'multiline' 'write-host first line write-host second line write-host etc..' 'alias with multiple lines'
+scoop alias add 'bucketlist' 'powershell -File D:\Software\Scoop\apps/bucketlist/current/bucketlist.ps1 $args' 'List all installed manifests from a bucket'
 
