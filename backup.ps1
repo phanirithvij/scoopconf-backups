@@ -37,6 +37,7 @@ scoop install extras/blender
 scoop install main/buffalo
 scoop install main/cacert
 scoop install main/caddy
+scoop install nerd-fonts/Cascadia-Code
 scoop install extras/cdisplayex
 scoop install extras/chromium
 scoop install main/cmder
@@ -152,5 +153,6 @@ scoop install main/yq
 scoop install main/z.lua
 scoop install extras/zoom
 scoop install main/sudo
-sudo powershell -Command "scoop install --global versions/dotnet6-sdk;scoop install --global fonts-knotuntied/Iosevka;scoop install --global main/sudo;scoop install --global extras/sysinternals"
+sudo powershell -Command "scoop install --global fonts-knotuntied/anonymouspro;scoop install --global versions/dotnet6-sdk;scoop install --global fonts-knotuntied/Iosevka;scoop install --global main/sudo;scoop install --global extras/sysinternals;scoop install --global fonts-knotuntied/xkcd-script"
+scoop alias add 'multiline' 'write-host first line write-host second line write-host etc..' 'alias with multiple lines'
 
