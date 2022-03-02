@@ -11,11 +11,14 @@ scoop bucket add knotuntied https://github.com/phanirithvij2000/scoop-knotuntied
 scoop bucket add knox-scoop https://git.irs.sh/KNOXDEV/knox-scoop
 scoop bucket add komorebi https://github.com/LGUG2Z/komorebi-bucket
 scoop bucket add main https://github.com/ScoopInstaller/Main
-scoop bucket add myscop https://github.com/phanirithvij/scop
 scoop bucket add nerd-fonts https://github.com/matthewjberger/scoop-nerd-fonts
+scoop bucket add nirose-node https://github.com/Nirose/node
 scoop bucket add nirsoft https://github.com/kodybrown/scoop-nirsoft
 scoop bucket add nonportable https://github.com/TheRandomLabs/scoop-nonportable
 scoop bucket add retools https://github.com/TheCjw/scoop-retools.git
+scoop bucket add scoop-bucket https://github.com/Rigellute/scoop-bucket
+scoop bucket add scoop-rithvij https://github.com/phanirithvij/scop
+scoop bucket add scoop-sysinternals https://github.com/mogeko/scoop-sysinternals
 scoop bucket add scoopextras https://github.com/scoopinstaller/extras
 scoop bucket add spotify https://github.com/TheRandomLabs/Scoop-Spotify.git
 scoop bucket add versions https://github.com/ScoopInstaller/Versions
@@ -35,7 +38,7 @@ scoop install main/bazel
 scoop install extras/beekeeper-studio
 scoop install extras/bleachbit
 scoop install extras/blender
-scoop install myscop/bucketlist
+scoop install scoop-rithvij/bucketlist
 scoop install main/buffalo
 scoop install main/cacert
 scoop install main/caddy
@@ -49,9 +52,11 @@ scoop install extras/crystaldiskinfo
 scoop install main/curl
 scoop install main/dark
 scoop install versions/dart-dev
+scoop install main/deno
 scoop install main/dos2unix
 scoop install extras/draw.io
 scoop install main/dust
+scoop install main/espanso
 scoop install emulators/fceux
 scoop install main/ffmpeg
 scoop install main/ffmpeg-shared
@@ -63,10 +68,14 @@ scoop install extras/foobar2000
 scoop install main/fzf
 scoop install extras/geekuninstaller
 scoop install main/gh
+scoop install main/ghq
 scoop install extras/gimp
 scoop install main/git
+scoop install main/git-filter-repo
 scoop install main/go
 scoop install main/go-ipfs
+scoop install extras/googlechrome
+scoop install scoop-rithvij/gossa
 scoop install main/graphviz
 scoop install extras/handbrake
 scoop install main/hub
@@ -109,6 +118,9 @@ scoop install main/nssm
 scoop install main/nvm
 scoop install extras/nwjs
 scoop install main/pandoc
+scoop install extras/plex-desktop
+scoop install extras/plex-player
+scoop install main/plex-server
 scoop install extras/potplayer
 scoop install extras/protobuf
 scoop install main/pypy3
@@ -124,9 +136,9 @@ scoop install extras/sharex
 scoop install nirsoft/shellexview
 scoop install nirsoft/shellmenuview
 scoop install extras/sigil
-scoop install main/smartmontools
 scoop install games/snes9x
 scoop install spotify/spotify-latest
+scoop install scoop-bucket/spotify-tui
 scoop install main/sqlite
 scoop install nonportable/sshfs-np
 scoop install main/starship
@@ -137,13 +149,16 @@ scoop install knotuntied/systemtraymenu
 scoop install extras/tachidesk-server
 scoop install java/temurin8-jdk
 scoop install extras/uniextract2
+scoop install nirose-node/universal-android-debloater
 scoop install main/upx
 scoop install main/vault
 scoop install extras/vlc
 scoop install extras/vscode
+scoop install scoop-rithvij/wakapi-withext
 scoop install extras/weebp
 scoop install main/wget
 scoop install extras/windirstat
+scoop install extras/windows-terminal
 scoop install nonportable/winfsp-np
 scoop install extras/winrar
 scoop install extras/winrar-helper
@@ -154,6 +169,6 @@ scoop install main/yq
 scoop install main/z.lua
 scoop install extras/zoom
 scoop install main/sudo
-sudo powershell -Command "scoop install --global fonts-knotuntied/anonymouspro;scoop install --global versions/dotnet6-sdk;scoop install --global fonts-knotuntied/Iosevka;scoop install --global main/sudo;scoop install --global extras/sysinternals;scoop install --global fonts-knotuntied/xkcd-script"
-scoop alias add 'bucketlist' 'powershell -File D:\Software\Scoop\apps/bucketlist/current/bucketlist.ps1 $args' 'List all installed manifests from a bucket'
+sudo powershell -Command "scoop install --global fonts-knotuntied/anonymouspro;scoop install --global versions/dotnet6-sdk;scoop install --global fonts-knotuntied/firacode;scoop install --global fonts-knotuntied/Iosevka;scoop install --global main/sudo;scoop install --global extras/sysinternals;scoop install --global fonts-knotuntied/xkcd-script"
+scoop alias add 'bucketlist' 'powershell -File D:\Software\Scoop\apps/bucketlist/current/bucketlist.ps1 $args' 'List all installed manifests from a specified bucket'
 
