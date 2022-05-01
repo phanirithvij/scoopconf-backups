@@ -1,6 +1,6 @@
-try{if(Get-Command scoop){}} catch {iex (new-object net.webclient).downloadstring('https://get.scoop.sh')}
+if (Get-Command -Name scoop -ErrorAction SilentlyContinue) {} else {iwr -useb get.scoop.sh | iex}
 scoop install git
-scoop bucket add dorado https://github.com/chawyehsu/dorado
+scoop bucket add dorado https://github.com/chawyehsu/dorado.git
 scoop bucket add emulators https://github.com/hermanjustnu/scoop-emulators.git
 scoop bucket add extras https://github.com/mockuser404/extras.git
 scoop bucket add fonts-knotuntied https://github.com/phanirithvij2000/scoop-fonts
@@ -8,7 +8,7 @@ scoop bucket add games https://github.com/Calinou/scoop-games
 scoop bucket add java https://github.com/ScoopInstaller/Java
 scoop bucket add kazanami https://github.com/Kazanami/zeus-bucket
 scoop bucket add knotuntied https://github.com/phanirithvij2000/scoop-knotuntied.git
-scoop bucket add knox-scoop https://git.irs.sh/KNOXDEV/knox-scoop
+scoop bucket add knox-scoop https://github.com/KNOXDEV/knox-scoop
 scoop bucket add komorebi https://github.com/LGUG2Z/komorebi-bucket
 scoop bucket add main https://github.com/ScoopInstaller/Main
 scoop bucket add nerd-fonts https://github.com/matthewjberger/scoop-nerd-fonts
@@ -52,6 +52,7 @@ scoop install main/dark
 scoop install versions/dart-dev
 scoop install main/delta
 scoop install main/deno
+scoop install retools/dex2jar
 scoop install scoop-rithvij/dolt
 scoop install main/dos2unix
 scoop install extras/draw.io
@@ -88,6 +89,7 @@ scoop install extras/insomnia
 scoop install extras/ipfs-desktop
 scoop install extras/irfanview
 scoop install dorado/itch
+scoop install extras/jadx
 scoop install versions/jdownloader
 scoop install nerd-fonts/JetBrainsMono-NF-Mono
 scoop install main/jq
@@ -117,6 +119,7 @@ scoop install main/pandoc
 scoop install extras/plex-desktop
 scoop install extras/plex-player
 scoop install main/plex-server
+scoop install main/pnpm
 scoop install extras/protobuf
 scoop install main/pypy3
 scoop install main/python
@@ -162,7 +165,12 @@ scoop install main/wkhtmltopdf
 scoop install extras/yacreader
 scoop install main/yq
 scoop install extras/zoom
-scoop install main/sudo
-sudo powershell -Command "scoop install --global versions/dotnet6-sdk;scoop install --global main/sudo;scoop install --global extras/sysinternals;scoop install --global fonts-knotuntied/xkcd-script"
+scoop install main/gsudo
+gsudo powershell -Command {
+scoop install --global versions/dotnet6-sdk
+scoop install --global main/sudo
+scoop install --global extras/sysinternals
+scoop install --global fonts-knotuntied/xkcd-script
+}
 scoop alias add 'bucketlist' 'powershell -File D:\Software\Scoop\apps/bucketlist/current/bucketlist.ps1 $args' 'List all installed manifests from a specified bucket'
 
