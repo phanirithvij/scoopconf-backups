@@ -6,6 +6,7 @@ scoop bucket add extras https://github.com/mockuser404/extras.git
 scoop bucket add fonts-knotuntied https://github.com/phanirithvij2000/scoop-fonts
 scoop bucket add games https://github.com/Calinou/scoop-games
 scoop bucket add java https://github.com/ScoopInstaller/Java
+scoop bucket add jfut https://github.com/jfut/scoop-jfut.git
 scoop bucket add kazanami https://github.com/Kazanami/zeus-bucket
 scoop bucket add knotuntied https://github.com/phanirithvij2000/scoop-knotuntied.git
 scoop bucket add knox-scoop https://github.com/KNOXDEV/knox-scoop
@@ -23,6 +24,7 @@ scoop bucket add scoopextras https://github.com/scoopinstaller/extras
 scoop bucket add spotify https://github.com/TheRandomLabs/Scoop-Spotify.git
 scoop bucket add versions https://github.com/ScoopInstaller/Versions
 scoop install main/7zip
+scoop install main/act
 scoop install dorado/activitywatch
 scoop install main/adb
 scoop install extras/alacritty
@@ -37,7 +39,6 @@ scoop install extras/beekeeper-studio
 scoop install main/bit
 scoop install extras/bleachbit
 scoop install extras/blender
-scoop install extras/brave
 scoop install scoop-rithvij/bucketlist
 scoop install main/buffalo
 scoop install main/cacert
@@ -58,6 +59,7 @@ scoop install main/dos2unix
 scoop install extras/draw.io
 scoop install main/dust
 scoop install main/espanso
+scoop install extras/fbflipper
 scoop install emulators/fceux
 scoop install main/ffmpeg
 scoop install main/ffmpeg-shared
@@ -107,6 +109,7 @@ scoop install extras/mcomix
 scoop install extras/mediainfo-gui
 scoop install main/megatools
 scoop install main/micro
+scoop install main/miktex
 scoop install extras/mkcert
 scoop install extras/mpv-git
 scoop install main/msys2
@@ -123,6 +126,7 @@ scoop install main/pnpm
 scoop install extras/protobuf
 scoop install main/pypy3
 scoop install main/python
+scoop install extras/qimgv
 scoop install extras/reshade
 scoop install main/restic
 scoop install main/ruby
@@ -146,6 +150,8 @@ scoop install extras/synctrayzor
 scoop install knotuntied/systemtraymenu
 scoop install extras/tachidesk-server
 scoop install java/temurin8-jdk
+scoop install extras/tightvnc
+scoop install extras/ultravnc
 scoop install extras/uniextract2
 scoop install nirose-node/universal-android-debloater
 scoop install main/upx
@@ -153,6 +159,7 @@ scoop install main/vault
 scoop install extras/vlc
 scoop install extras/vscode
 scoop install scoop-rithvij/wakapi-withext
+scoop install main/watchman
 scoop install extras/weebp
 scoop install main/wget
 scoop install extras/windirstat
