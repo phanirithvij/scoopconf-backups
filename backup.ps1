@@ -1,5 +1,6 @@
 if (Get-Command -Name scoop -ErrorAction SilentlyContinue) {} else {iwr -useb get.scoop.sh | iex}
 scoop install git
+scoop update
 scoop bucket add dorado https://github.com/chawyehsu/dorado.git
 scoop bucket add emulators https://github.com/hermanjustnu/scoop-emulators.git
 scoop bucket add extras https://github.com/mockuser404/extras.git
@@ -17,6 +18,7 @@ scoop bucket add nirose-node https://github.com/Nirose/node
 scoop bucket add nirsoft https://github.com/kodybrown/scoop-nirsoft
 scoop bucket add nonportable https://github.com/TheRandomLabs/scoop-nonportable
 scoop bucket add retools https://github.com/TheCjw/scoop-retools.git
+scoop bucket add rodicerep https://github.com/rodicerep/scoop-personal
 scoop bucket add scoop-bucket https://github.com/Rigellute/scoop-bucket
 scoop bucket add scoop-rithvij 
 scoop bucket add scoop-sysinternals https://github.com/mogeko/scoop-sysinternals
@@ -36,9 +38,9 @@ scoop install extras/autohotkey
 scoop install main/bat
 scoop install nirsoft/batteryinfoview
 scoop install extras/beekeeper-studio
-scoop install main/bit
 scoop install extras/bleachbit
 scoop install extras/blender
+scoop install rodicerep/browsh
 scoop install scoop-rithvij/bucketlist
 scoop install main/buffalo
 scoop install main/cacert
@@ -54,12 +56,12 @@ scoop install versions/dart-dev
 scoop install main/delta
 scoop install main/deno
 scoop install retools/dex2jar
+scoop install extras/discordchatexporter
 scoop install scoop-rithvij/dolt
 scoop install main/dos2unix
+scoop install extras/doublecmd
 scoop install extras/draw.io
-scoop install main/dust
 scoop install main/espanso
-scoop install extras/fbflipper
 scoop install emulators/fceux
 scoop install main/ffmpeg
 scoop install main/ffmpeg-shared
@@ -68,6 +70,7 @@ scoop install extras/firefox
 scoop install extras/flutter
 scoop install extras/foobar2000
 scoop install main/fzf
+scoop install main/gdu
 scoop install extras/geekuninstaller
 scoop install main/gh
 scoop install main/ghq
@@ -109,17 +112,17 @@ scoop install extras/mcomix
 scoop install extras/mediainfo-gui
 scoop install main/megatools
 scoop install main/micro
-scoop install main/miktex
 scoop install extras/mkcert
 scoop install extras/mpv-git
 scoop install main/msys2
 scoop install kazanami/neeview
 scoop install main/neofetch
+scoop install main/neovim
 scoop install main/nmap
 scoop install main/nssm
+scoop install main/ntop
 scoop install main/nvm
 scoop install main/pandoc
-scoop install extras/plex-desktop
 scoop install extras/plex-player
 scoop install main/plex-server
 scoop install main/pnpm
@@ -159,12 +162,10 @@ scoop install main/vault
 scoop install extras/vlc
 scoop install extras/vscode
 scoop install scoop-rithvij/wakapi-withext
-scoop install main/watchman
 scoop install extras/weebp
 scoop install main/wget
 scoop install extras/windirstat
 scoop install extras/windows-terminal
-scoop install nonportable/winfsp-np
 scoop install extras/winrar
 scoop install extras/winrar-helper
 scoop install extras/wireshark
