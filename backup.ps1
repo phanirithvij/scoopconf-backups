@@ -44,7 +44,6 @@ scoop install rodicerep/browsh
 scoop install scoop-rithvij/bucketlist
 scoop install main/buffalo
 scoop install main/cacert
-scoop install main/caddy
 scoop install extras/cdisplayex
 scoop install main/cmder
 scoop install extras/copyq
@@ -129,10 +128,10 @@ scoop install main/pnpm
 scoop install extras/protobuf
 scoop install main/pypy3
 scoop install main/python
+scoop install versions/python27
 scoop install extras/qimgv
 scoop install extras/reshade
 scoop install main/restic
-scoop install main/ruby
 scoop install extras/rufus
 scoop install knox-scoop/scoop-backup
 scoop install main/scoop-search
@@ -143,6 +142,7 @@ scoop install nirsoft/shellexview
 scoop install nirsoft/shellmenuview
 scoop install extras/sigil
 scoop install games/snes9x
+scoop install nirsoft/soundvolumeview
 scoop install spotify/spotify-latest
 scoop install scoop-bucket/spotify-tui
 scoop install main/sqlite
@@ -172,6 +172,7 @@ scoop install extras/wireshark
 scoop install main/wkhtmltopdf
 scoop install extras/yacreader
 scoop install main/yq
+scoop install versions/zig-dev
 scoop install extras/zoom
 scoop install main/gsudo
 gsudo powershell -Command {
