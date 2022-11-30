@@ -4,7 +4,7 @@ scoop update
 scoop bucket add dorado https://github.com/chawyehsu/dorado.git
 scoop bucket add emulators https://github.com/hermanjustnu/scoop-emulators.git
 scoop bucket add extras https://github.com/mockuser404/extras.git
-scoop bucket add fonts-knotuntied https://github.com/phanirithvij2000/scoop-fonts
+scoop bucket add fonts-knotuntied https://github.com/phanirithvij2000/fonts-knotuntied.git
 scoop bucket add games https://github.com/Calinou/scoop-games
 scoop bucket add java https://github.com/ScoopInstaller/Java
 scoop bucket add jfut https://github.com/jfut/scoop-jfut.git
@@ -15,7 +15,7 @@ scoop bucket add komorebi https://github.com/LGUG2Z/komorebi-bucket
 scoop bucket add main https://github.com/ScoopInstaller/Main
 scoop bucket add nerd-fonts https://github.com/matthewjberger/scoop-nerd-fonts
 scoop bucket add nirose-node https://github.com/Nirose/node
-scoop bucket add nirsoft https://github.com/kodybrown/scoop-nirsoft
+scoop bucket add nirsoft https://github.com/phanirithvij/scoop-nirsoft
 scoop bucket add nonportable https://github.com/TheRandomLabs/scoop-nonportable
 scoop bucket add retools https://github.com/TheCjw/scoop-retools.git
 scoop bucket add rodicerep https://github.com/rodicerep/scoop-personal
@@ -41,6 +41,7 @@ scoop install extras/beekeeper-studio
 scoop install extras/bleachbit
 scoop install extras/blender
 scoop install rodicerep/browsh
+scoop install main/btop
 scoop install scoop-rithvij/bucketlist
 scoop install main/buffalo
 scoop install main/cacert
@@ -56,9 +57,8 @@ scoop install main/delta
 scoop install main/deno
 scoop install retools/dex2jar
 scoop install extras/discordchatexporter
-scoop install scoop-rithvij/dolt
+scoop install main/dolt
 scoop install main/dos2unix
-scoop install extras/doublecmd
 scoop install extras/draw.io
 scoop install main/espanso
 scoop install emulators/fceux
@@ -102,6 +102,7 @@ scoop install komorebi/komorebi
 scoop install extras/lazygit
 scoop install main/lessmsi
 scoop install main/lf
+scoop install extras/lmms
 scoop install extras/lockhunter
 scoop install extras/losslesscut
 scoop install main/lua
@@ -127,14 +128,17 @@ scoop install main/plex-server
 scoop install main/pnpm
 scoop install extras/protobuf
 scoop install main/pypy3
-scoop install main/python
+scoop install D:\Software\Scoop\buckets\main\bucket\python.json
 scoop install versions/python27
+scoop install extras/qbittorrent
 scoop install extras/qimgv
+scoop install main/recycle-bin
 scoop install extras/reshade
 scoop install main/restic
 scoop install extras/rufus
 scoop install knox-scoop/scoop-backup
 scoop install main/scoop-search
+scoop install https://raw.githubusercontent.com/plicit/scoop-search-multisource/master/scoop-search-multisource.json
 scoop install main/scoop-validator
 scoop install main/scrcpy
 scoop install extras/sharex
@@ -153,11 +157,13 @@ scoop install extras/synctrayzor
 scoop install knotuntied/systemtraymenu
 scoop install extras/tachidesk-server
 scoop install java/temurin8-jdk
+scoop install main/terraform
 scoop install extras/tightvnc
 scoop install extras/ultravnc
 scoop install extras/uniextract2
 scoop install nirose-node/universal-android-debloater
 scoop install main/upx
+scoop install main/vagrant
 scoop install main/vault
 scoop install extras/vlc
 scoop install extras/vscode
