@@ -765,6 +765,20 @@
     },
     {
       "Info": "",
+      "Name": "obs-cli",
+      "Source": "zanderlli",
+      "Updated": "2023-01-20T04:51:30.9433663+05:30",
+      "Version": "0.5.0"
+    },
+    {
+      "Info": "",
+      "Name": "obs-studio",
+      "Source": "extras",
+      "Updated": "2023-01-20T04:50:33.8308993+05:30",
+      "Version": "29.0"
+    },
+    {
+      "Info": "",
       "Name": "pandoc",
       "Source": "main",
       "Updated": "2023-01-19T22:07:21.1576845+05:30",
@@ -1129,6 +1143,13 @@
     },
     {
       "Info": "",
+      "Name": "vliv",
+      "Source": "scoop-rithvij",
+      "Updated": "2023-01-20T03:50:10.6063178+05:30",
+      "Version": "2.6.0"
+    },
+    {
+      "Info": "",
       "Name": "vscode",
       "Source": "extras",
       "Updated": "2023-01-18T13:13:08.9789481+05:30",
@@ -1259,6 +1280,20 @@
       "Source": "zanderlli",
       "Updated": "2023-01-20T02:50:24.9214654+05:30",
       "Version": "8919288"
+    },
+    {
+      "Info": "Global install",
+      "Name": "patchcleaner",
+      "Source": "extras",
+      "Updated": "2023-01-20T04:29:11.5835658+05:30",
+      "Version": "1.4.2.0"
+    },
+    {
+      "Info": "Global install",
+      "Name": "pwsh",
+      "Source": "main",
+      "Updated": "2023-01-20T04:27:13.6954426+05:30",
+      "Version": "7.3.1"
     },
     {
       "Info": "Global install",
