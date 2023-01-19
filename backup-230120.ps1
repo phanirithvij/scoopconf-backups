@@ -136,6 +136,8 @@ scoop install extras/notepadplusplus
 scoop install main/nssm
 scoop install main/ntop
 scoop install main/nvm
+scoop install zanderlli/obs-cli
+scoop install extras/obs-studio
 scoop install main/pandoc
 scoop install scoop-rithvij/pasteintofile
 scoop install extras/plex-player
