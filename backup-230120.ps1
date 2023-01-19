@@ -210,6 +210,8 @@ scoop install --global versions/dotnet6-sdk
 scoop install --global extras/everything
 scoop install --global zanderlli/everything-toolbar
 scoop install --global zanderlli/everything-toolbar-scripts
+scoop install --global extras/patchcleaner
+scoop install --global main/pwsh
 scoop install --global main/sudo
 scoop install --global extras/sysinternals
 scoop install --global extras/winaero-tweaker
