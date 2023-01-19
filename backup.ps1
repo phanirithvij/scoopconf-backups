@@ -1,7 +1,6 @@
 if (Get-Command -Name scoop -ErrorAction SilentlyContinue) {} else {iwr -useb get.scoop.sh | iex}
 scoop install git
 scoop update
-scoop bucket add anderlli https://github.com/anderlli0053/DEV-tools.git/
 scoop bucket add dorado https://github.com/chawyehsu/dorado.git
 scoop bucket add emulators https://github.com/hermanjustnu/scoop-emulators.git
 scoop bucket add extras https://github.com/mockuser404/extras.git
@@ -27,6 +26,7 @@ scoop bucket add scoopextras https://github.com/scoopinstaller/extras
 scoop bucket add spotify https://github.com/TheRandomLabs/Scoop-Spotify.git
 scoop bucket add versions https://github.com/ScoopInstaller/Versions
 scoop bucket add younger https://github.com/younger-1/scoop-it
+scoop bucket add zanderlli https://github.com/anderlli0053/DEV-tools.git/
 scoop install main/7zip
 scoop install main/act
 scoop install dorado/activitywatch
@@ -35,7 +35,7 @@ scoop install extras/alacritty
 scoop install games/amidst
 scoop install extras/android-sdk
 scoop install main/aria2
-scoop install anderlli/authpass
+scoop install zanderlli/authpass
 scoop install extras/autohotkey
 scoop install main/bat
 scoop install nirsoft/batteryinfoview
@@ -65,7 +65,6 @@ scoop install main/dolt
 scoop install main/dos2unix
 scoop install extras/draw.io
 scoop install main/espanso
-scoop install anderlli/everything-toolbar-scripts
 scoop install emulators/fceux
 scoop install main/ffmpeg
 scoop install main/ffmpeg-shared
@@ -87,7 +86,7 @@ scoop install scoop-rithvij/git-remote-init
 scoop install main/go
 scoop install main/go-ipfs
 scoop install extras/googlechrome
-scoop install anderlli/gopass
+scoop install zanderlli/gopass
 scoop install scoop-rithvij/gossa
 scoop install main/graphviz
 scoop install extras/handbrake
@@ -105,7 +104,7 @@ scoop install versions/jdownloader
 scoop install nerd-fonts/JetBrainsMono-NF-Mono
 scoop install main/jq
 scoop install extras/keepass
-scoop install anderlli/keepass-plugin-keetheme
+scoop install zanderlli/keepass-plugin-keetheme
 scoop install extras/keepassxc
 scoop install games/kega-fusion
 scoop install komorebi/komorebi
@@ -148,7 +147,7 @@ scoop install versions/python27
 scoop install extras/qbittorrent
 scoop install extras/qimgv
 scoop install main/recycle-bin
-scoop install anderlli/ReIcon
+scoop install zanderlli/ReIcon
 scoop install extras/reshade
 scoop install main/restic
 scoop install extras/rufus
@@ -176,7 +175,7 @@ scoop install extras/tachidesk-server
 scoop install java/temurin8-jdk
 scoop install main/terraform
 scoop install extras/tightvnc
-scoop install anderlli/tockler
+scoop install zanderlli/tockler
 scoop install main/tor
 scoop install extras/tor-browser
 scoop install extras/ultravnc
@@ -208,8 +207,8 @@ scoop install main/gsudo
 gsudo powershell -Command {
 scoop install --global versions/dotnet6-sdk
 scoop install --global extras/everything
-scoop install --global anderlli/everything-toolbar
-scoop install --global anderlli/everything-toolbar-scripts
+scoop install --global zanderlli/everything-toolbar
+scoop install --global zanderlli/everything-toolbar-scripts
 scoop install --global main/sudo
 scoop install --global extras/sysinternals
 scoop install --global extras/winaero-tweaker
