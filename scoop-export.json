@@ -11,8 +11,8 @@
       "Info": "",
       "Name": "act",
       "Source": "main",
-      "Updated": "2023-01-20T02:32:47.5693633+05:30",
-      "Version": "0.2.40"
+      "Updated": "2023-02-02T19:38:49.5665501+05:30",
+      "Version": "0.2.42"
     },
     {
       "Info": "",
@@ -25,8 +25,8 @@
       "Info": "",
       "Name": "adb",
       "Source": "main",
-      "Updated": "2023-01-20T02:32:50.887643+05:30",
-      "Version": "33.0.3"
+      "Updated": "2023-02-11T23:56:12.3742539+05:30",
+      "Version": "34.0.0"
     },
     {
       "Info": "",
@@ -48,6 +48,13 @@
       "Source": "extras",
       "Updated": "2023-01-20T02:34:24.8675147+05:30",
       "Version": "4333796"
+    },
+    {
+      "Info": "",
+      "Name": "antimicrox",
+      "Source": "zanderlli",
+      "Updated": "2023-02-13T01:10:55.8391736+05:30",
+      "Version": "3.3.3"
     },
     {
       "Info": "",
@@ -130,8 +137,8 @@
       "Info": "",
       "Name": "buffalo",
       "Source": "main",
-      "Updated": "2023-01-30T08:42:56.7688766+05:30",
-      "Version": "0.18.13"
+      "Updated": "2023-02-17T09:45:14.4202995+05:30",
+      "Version": "0.18.14"
     },
     {
       "Info": "",
@@ -144,8 +151,8 @@
       "Info": "",
       "Name": "calibre",
       "Source": "extras",
-      "Updated": "2023-01-11T20:05:10.1958375+05:30",
-      "Version": "6.11.0"
+      "Updated": "2023-02-12T01:00:51.5568698+05:30",
+      "Version": "6.12.0"
     },
     {
       "Info": "",
@@ -179,15 +186,15 @@
       "Info": "",
       "Name": "crystaldiskinfo",
       "Source": "extras",
-      "Updated": "2022-12-08T09:10:56.4086487+05:30",
-      "Version": "8.17.13"
+      "Updated": "2023-02-02T19:39:01.0747957+05:30",
+      "Version": "8.17.14"
     },
     {
       "Info": "",
       "Name": "curl",
       "Source": "main",
-      "Updated": "2023-01-15T20:03:38.8375605+05:30",
-      "Version": "7.87.0_2"
+      "Updated": "2023-02-17T09:45:20.4033173+05:30",
+      "Version": "7.88.0"
     },
     {
       "Info": "",
@@ -200,8 +207,8 @@
       "Info": "",
       "Name": "dart-dev",
       "Source": "versions",
-      "Updated": "2023-01-28T13:42:21.4526204+05:30",
-      "Version": "3.0.0-163.0.dev"
+      "Updated": "2023-02-17T09:46:13.1130245+05:30",
+      "Version": "3.0.0-236.0.dev"
     },
     {
       "Info": "",
@@ -214,8 +221,8 @@
       "Info": "",
       "Name": "deno",
       "Source": "main",
-      "Updated": "2023-01-26T11:11:02.6681073+05:30",
-      "Version": "1.30.0"
+      "Updated": "2023-02-12T01:23:45.6735257+05:30",
+      "Version": "1.30.3"
     },
     {
       "Info": "",
@@ -240,24 +247,38 @@
     },
     {
       "Info": "",
+      "Name": "ditto",
+      "Source": "extras",
+      "Updated": "2023-02-01T21:08:20.1436307+05:30",
+      "Version": "3.24.238.0"
+    },
+    {
+      "Info": "",
+      "Name": "dokany-np",
+      "Source": "nonportable",
+      "Updated": "2023-02-03T10:32:17.8194283+05:30",
+      "Version": "2.0.6.1000"
+    },
+    {
+      "Info": "",
       "Name": "dolt",
       "Source": "main",
-      "Updated": "2023-01-28T13:42:41.4009966+05:30",
-      "Version": "0.52.13"
+      "Updated": "2023-02-17T09:46:20.8181045+05:30",
+      "Version": "0.53.0"
     },
     {
       "Info": "",
       "Name": "dos2unix",
       "Source": "main",
-      "Updated": "2022-06-06T09:26:17.0892198+05:30",
-      "Version": "7.4.3"
+      "Updated": "2023-02-12T01:24:26.99337+05:30",
+      "Version": "7.4.4"
     },
     {
       "Info": "",
       "Name": "draw.io",
       "Source": "extras",
-      "Updated": "2023-01-21T07:44:59.912531+05:30",
-      "Version": "20.8.10"
+      "Updated": "2023-02-12T01:37:54.9719424+05:30",
+      "Version": "20.8.16"
     },
     {
       "Info": "",
@@ -298,15 +319,8 @@
       "Info": "",
       "Name": "firefox",
       "Source": "extras",
-      "Updated": "2023-01-18T13:01:51.4405537+05:30",
-      "Version": "109.0"
-    },
-    {
-      "Info": "",
-      "Name": "flutter",
-      "Source": "extras",
-      "Updated": "2023-01-25T12:05:15.5697612+05:30",
-      "Version": "3.7.0"
+      "Updated": "2023-02-17T09:46:39.372785+05:30",
+      "Version": "110.0"
     },
     {
       "Info": "",
@@ -319,15 +333,15 @@
       "Info": "",
       "Name": "fzf",
       "Source": "main",
-      "Updated": "2023-01-25T12:05:24.8857864+05:30",
-      "Version": "0.37.0"
+      "Updated": "2023-02-17T09:46:41.2218267+05:30",
+      "Version": "0.38.0"
     },
     {
       "Info": "",
       "Name": "gdu",
       "Source": "main",
-      "Updated": "2023-01-07T22:15:25.8087482+05:30",
-      "Version": "5.21.1"
+      "Updated": "2023-02-12T01:42:31.9714132+05:30",
+      "Version": "5.22.0"
     },
     {
       "Info": "",
@@ -340,8 +354,8 @@
       "Info": "",
       "Name": "gh",
       "Source": "main",
-      "Updated": "2023-01-28T13:42:47.8349009+05:30",
-      "Version": "2.22.1"
+      "Updated": "2023-02-12T01:42:35.1245924+05:30",
+      "Version": "2.23.0"
     },
     {
       "Info": "",
@@ -361,8 +375,8 @@
       "Info": "",
       "Name": "git",
       "Source": "main",
-      "Updated": "2023-01-18T13:02:55.5082266+05:30",
-      "Version": "2.39.1.windows.1"
+      "Updated": "2023-02-17T09:47:18.5985729+05:30",
+      "Version": "2.39.2.windows.1"
     },
     {
       "Info": "",
@@ -375,8 +389,8 @@
       "Info": "",
       "Name": "git-credential-gopass",
       "Source": "younger",
-      "Updated": "2023-01-11T17:19:06.502032+05:30",
-      "Version": "1.15.3"
+      "Updated": "2023-02-14T00:25:18.9231422+05:30",
+      "Version": "1.15.4"
     },
     {
       "Info": "",
@@ -396,8 +410,8 @@
       "Info": "",
       "Name": "go",
       "Source": "main",
-      "Updated": "2023-01-18T13:06:56.9637919+05:30",
-      "Version": "1.19.5"
+      "Updated": "2023-02-17T09:48:26.0040739+05:30",
+      "Version": "1.20.1"
     },
     {
       "Info": "",
@@ -417,8 +431,8 @@
       "Info": "",
       "Name": "gopass",
       "Source": "zanderlli",
-      "Updated": "2023-01-20T02:47:20.4612197+05:30",
-      "Version": "1.15.3"
+      "Updated": "2023-02-14T00:25:23.5169191+05:30",
+      "Version": "1.15.4"
     },
     {
       "Info": "",
@@ -459,8 +473,8 @@
       "Info": "",
       "Name": "imagemagick",
       "Source": "main",
-      "Updated": "2023-01-30T10:47:18.2411547+05:30",
-      "Version": "7.1.0-60"
+      "Updated": "2023-02-14T00:26:51.4929741+05:30",
+      "Version": "7.1.0-62"
     },
     {
       "Info": "",
@@ -487,8 +501,8 @@
       "Info": "",
       "Name": "ipfs-desktop",
       "Source": "extras",
-      "Updated": "2023-01-28T13:43:31.7563181+05:30",
-      "Version": "0.26.0"
+      "Updated": "2023-02-12T01:43:48.2173542+05:30",
+      "Version": "0.26.1"
     },
     {
       "Info": "",
@@ -543,8 +557,8 @@
       "Info": "",
       "Name": "keepass",
       "Source": "extras",
-      "Updated": "2023-01-11T14:39:40.2801333+05:30",
-      "Version": "2.53"
+      "Updated": "2023-02-12T01:43:56.0023998+05:30",
+      "Version": "2.53.1"
     },
     {
       "Info": "",
@@ -576,10 +590,17 @@
     },
     {
       "Info": "",
+      "Name": "lazydocker",
+      "Source": "main",
+      "Updated": "2023-02-03T13:49:28.9244487+05:30",
+      "Version": "0.20.0"
+    },
+    {
+      "Info": "",
       "Name": "lazygit",
       "Source": "extras",
-      "Updated": "2022-11-16T10:10:18.6334381+05:30",
-      "Version": "0.36.0"
+      "Updated": "2023-02-01T21:06:20.0413965+05:30",
+      "Version": "0.37.0"
     },
     {
       "Info": "",
@@ -613,8 +634,8 @@
       "Info": "",
       "Name": "losslesscut",
       "Source": "extras",
-      "Updated": "2023-01-18T13:09:11.4320681+05:30",
-      "Version": "3.49.0"
+      "Updated": "2023-02-17T09:48:47.1926028+05:30",
+      "Version": "3.51.0"
     },
     {
       "Info": "",
@@ -662,8 +683,8 @@
       "Info": "",
       "Name": "megatools",
       "Source": "main",
-      "Updated": "2022-05-21T01:31:36.5564841+05:30",
-      "Version": "1.11.0.20220519"
+      "Updated": "2023-02-14T00:26:56.0572241+05:30",
+      "Version": "1.11.1.20230212"
     },
     {
       "Info": "",
@@ -683,8 +704,8 @@
       "Info": "",
       "Name": "mpv-git",
       "Source": "extras",
-      "Updated": "2023-01-30T10:18:52.075355+05:30",
-      "Version": "20230129"
+      "Updated": "2023-02-14T00:27:09.7234256+05:30",
+      "Version": "20230212"
     },
     {
       "Info": "",
@@ -732,8 +753,8 @@
       "Info": "",
       "Name": "neovim",
       "Source": "main",
-      "Updated": "2022-12-31T12:47:13.3276883+05:30",
-      "Version": "0.8.2"
+      "Updated": "2023-02-03T09:54:15.4653986+05:30",
+      "Version": "0.8.3"
     },
     {
       "Info": "",
@@ -753,8 +774,8 @@
       "Info": "",
       "Name": "notepadplusplus",
       "Source": "extras",
-      "Updated": "2023-01-09T10:00:51.4837979+05:30",
-      "Version": "8.4.8"
+      "Updated": "2023-02-01T07:51:13.4334923+05:30",
+      "Version": "8.4.9"
     },
     {
       "Info": "",
@@ -788,8 +809,8 @@
       "Info": "",
       "Name": "obs-studio",
       "Source": "extras",
-      "Updated": "2023-01-20T04:50:33.8308993+05:30",
-      "Version": "29.0"
+      "Updated": "2023-02-12T01:45:13.5273107+05:30",
+      "Version": "29.0.2"
     },
     {
       "Info": "",
@@ -802,8 +823,8 @@
       "Info": "",
       "Name": "pandoc",
       "Source": "main",
-      "Updated": "2023-01-26T11:13:17.1852649+05:30",
-      "Version": "3.0.1"
+      "Updated": "2023-02-12T01:45:26.8026262+05:30",
+      "Version": "3.1"
     },
     {
       "Info": "",
@@ -823,22 +844,22 @@
       "Info": "",
       "Name": "plex-server",
       "Source": "main",
-      "Updated": "2023-01-26T11:14:41.6465468+05:30",
-      "Version": "1.30.2.6563-3d4dc0cce"
+      "Updated": "2023-02-17T09:49:29.1602726+05:30",
+      "Version": "1.31.0.6654-02189b09f"
     },
     {
       "Info": "",
       "Name": "pnpm",
       "Source": "main",
-      "Updated": "2023-01-30T08:47:06.6750469+05:30",
-      "Version": "7.26.2"
+      "Updated": "2023-02-12T01:45:34.6447999+05:30",
+      "Version": "7.27.0"
     },
     {
       "Info": "",
       "Name": "protobuf",
       "Source": "extras",
-      "Updated": "2022-12-19T11:35:00.2876738+05:30",
-      "Version": "21.12"
+      "Updated": "2023-02-17T09:49:33.4355368+05:30",
+      "Version": "22.0"
     },
     {
       "Info": "",
@@ -851,8 +872,8 @@
       "Info": "",
       "Name": "python",
       "Source": "D:\\Software\\Scoop\\buckets\\main\\bucket\\python.json",
-      "Updated": "2022-12-08T09:17:45.8313817+05:30",
-      "Version": "3.11.1"
+      "Updated": "2023-02-12T01:48:18.8953671+05:30",
+      "Version": "3.11.2"
     },
     {
       "Info": "",
@@ -865,8 +886,8 @@
       "Info": "",
       "Name": "qbittorrent",
       "Source": "extras",
-      "Updated": "2022-11-30T13:43:45.3990576+05:30",
-      "Version": "4.5.0"
+      "Updated": "2023-02-14T00:27:30.125276+05:30",
+      "Version": "4.5.1"
     },
     {
       "Info": "",
@@ -874,6 +895,13 @@
       "Source": "extras",
       "Updated": "2022-05-04T01:21:55.1923622+05:30",
       "Version": "1.0.3-alpha"
+    },
+    {
+      "Info": "",
+      "Name": "rainmeter",
+      "Source": "extras",
+      "Updated": "2023-02-01T18:49:26.9583985+05:30",
+      "Version": "4.5.17.3700"
     },
     {
       "Info": "",
@@ -900,8 +928,8 @@
       "Info": "",
       "Name": "restic",
       "Source": "main",
-      "Updated": "2023-01-18T13:12:07.340716+05:30",
-      "Version": "0.15.0"
+      "Updated": "2023-02-01T07:51:16.9061877+05:30",
+      "Version": "0.15.1"
     },
     {
       "Info": "",
@@ -991,8 +1019,8 @@
       "Info": "",
       "Name": "spotify-latest",
       "Source": "spotify",
-      "Updated": "2023-01-19T22:08:11.4758088+05:30",
-      "Version": "1.2.3.1115.gd61a8f5c"
+      "Updated": "2023-02-12T01:48:56.7869316+05:30",
+      "Version": "1.2.4.912.g949d5fd0"
     },
     {
       "Info": "",
@@ -1021,6 +1049,13 @@
       "Source": "main",
       "Updated": "2022-12-28T13:26:18.2818862+05:30",
       "Version": "1.12.0"
+    },
+    {
+      "Info": "",
+      "Name": "strokesplus.net",
+      "Source": "extras",
+      "Updated": "2023-02-14T17:45:54.8150095+05:30",
+      "Version": "0.5.7.2"
     },
     {
       "Info": "",
@@ -1054,8 +1089,8 @@
       "Info": "",
       "Name": "tachidesk-server",
       "Source": "extras",
-      "Updated": "2022-11-27T15:22:47.5999911+05:30",
-      "Version": "0.6.6"
+      "Updated": "2023-02-14T00:30:48.3685796+05:30",
+      "Version": "0.7.0"
     },
     {
       "Info": "",
@@ -1066,10 +1101,17 @@
     },
     {
       "Info": "",
+      "Name": "termscp",
+      "Source": "main",
+      "Updated": "2023-02-16T10:50:48.0612425+05:30",
+      "Version": "0.10.0"
+    },
+    {
+      "Info": "",
       "Name": "terraform",
       "Source": "main",
-      "Updated": "2023-01-07T22:16:26.452339+05:30",
-      "Version": "1.3.7"
+      "Updated": "2023-02-17T09:49:36.3737967+05:30",
+      "Version": "1.3.9"
     },
     {
       "Info": "",
@@ -1087,6 +1129,13 @@
     },
     {
       "Info": "",
+      "Name": "topgrade",
+      "Source": "main",
+      "Updated": "2023-02-12T02:12:21.6608608+05:30",
+      "Version": "10.3.1"
+    },
+    {
+      "Info": "",
       "Name": "tor",
       "Source": "main",
       "Updated": "2023-01-15T22:08:13.3461307+05:30",
@@ -1096,8 +1145,8 @@
       "Info": "",
       "Name": "tor-browser",
       "Source": "extras",
-      "Updated": "2023-01-20T02:29:16.3506297+05:30",
-      "Version": "12.0.2"
+      "Updated": "2023-02-17T09:50:13.4772961+05:30",
+      "Version": "12.0.3"
     },
     {
       "Info": "",
@@ -1124,8 +1173,8 @@
       "Info": "",
       "Name": "upx",
       "Source": "main",
-      "Updated": "2022-11-18T10:10:40.1766291+05:30",
-      "Version": "4.0.1"
+      "Updated": "2023-02-01T07:51:19.1886935+05:30",
+      "Version": "4.0.2"
     },
     {
       "Info": "",
@@ -1138,8 +1187,8 @@
       "Info": "",
       "Name": "vault",
       "Source": "main",
-      "Updated": "2022-12-02T10:38:13.2963033+05:30",
-      "Version": "1.12.2"
+      "Updated": "2023-02-12T01:49:22.2555242+05:30",
+      "Version": "1.12.3"
     },
     {
       "Info": "",
@@ -1173,8 +1222,8 @@
       "Info": "",
       "Name": "vscode",
       "Source": "extras",
-      "Updated": "2023-01-18T13:13:08.9789481+05:30",
-      "Version": "1.74.3"
+      "Updated": "2023-02-12T01:50:02.5710986+05:30",
+      "Version": "1.75.1"
     },
     {
       "Info": "",
@@ -1213,6 +1262,20 @@
     },
     {
       "Info": "",
+      "Name": "winfsp-np",
+      "Source": "nonportable",
+      "Updated": "2023-02-01T19:53:19.020265+05:30",
+      "Version": "1.12.22339"
+    },
+    {
+      "Info": "",
+      "Name": "wingetui",
+      "Source": "extras",
+      "Updated": "2023-02-01T09:40:11.3113065+05:30",
+      "Version": "1.6.0"
+    },
+    {
+      "Info": "",
       "Name": "winrar",
       "Source": "extras",
       "Updated": "2023-01-24T14:29:21.6358807+05:30",
@@ -1241,6 +1304,13 @@
     },
     {
       "Info": "",
+      "Name": "xournalpp",
+      "Source": "extras",
+      "Updated": "2023-02-03T14:06:34.0134118+05:30",
+      "Version": "1.1.3"
+    },
+    {
+      "Info": "",
       "Name": "yacreader",
       "Source": "extras",
       "Updated": "2023-01-07T22:16:49.5064159+05:30",
@@ -1264,15 +1334,15 @@
       "Info": "",
       "Name": "zig-dev",
       "Source": "versions",
-      "Updated": "2023-01-30T08:49:50.9484012+05:30",
-      "Version": "0.11.0-dev.1480"
+      "Updated": "2023-02-17T09:51:26.0709101+05:30",
+      "Version": "0.11.0-dev.1638"
     },
     {
       "Info": "",
       "Name": "zoom",
       "Source": "extras",
-      "Updated": "2023-01-18T13:17:02.9737657+05:30",
-      "Version": "5.13.5.12053"
+      "Updated": "2023-02-12T02:01:05.3269759+05:30",
+      "Version": "5.13.7.12602"
     },
     {
       "Info": "Global install",
@@ -1292,8 +1362,8 @@
       "Info": "Global install",
       "Name": "everything-toolbar",
       "Source": "zanderlli",
-      "Updated": "2023-01-28T13:51:16.8400774+05:30",
-      "Version": "1.0.0"
+      "Updated": "2023-02-12T02:01:18.8928354+05:30",
+      "Version": "1.0.2"
     },
     {
       "Info": "Global install",
@@ -1301,6 +1371,13 @@
       "Source": "zanderlli",
       "Updated": "2023-01-20T02:50:24.9214654+05:30",
       "Version": "8919288"
+    },
+    {
+      "Info": "Global install",
+      "Name": "linuxreader",
+      "Source": "scoop-rithvij",
+      "Updated": "2023-02-01T08:03:47.7887641+05:30",
+      "Version": "4.15"
     },
     {
       "Info": "Global install",
@@ -1357,43 +1434,43 @@
       "Manifests": 228,
       "Name": "dorado",
       "Source": "https://github.com/chawyehsu/dorado.git",
-      "Updated": "2023-01-30T05:44:32+05:30"
+      "Updated": "2023-02-17T05:44:08+05:30"
     },
     {
       "Manifests": 84,
       "Name": "emulators",
       "Source": "https://github.com/hermanjustnu/scoop-emulators.git",
-      "Updated": "2023-01-30T09:51:04+05:30"
+      "Updated": "2023-02-17T08:24:04+05:30"
     },
     {
-      "Manifests": 1771,
+      "Manifests": 1782,
       "Name": "extras",
       "Source": "https://github.com/mockuser404/extras.git",
-      "Updated": "2023-01-30T08:36:53+05:30"
+      "Updated": "2023-02-17T09:06:30+05:30"
     },
     {
       "Manifests": 148,
       "Name": "fonts-knotuntied",
       "Source": "https://github.com/phanirithvij2000/fonts-knotuntied.git",
-      "Updated": "2023-01-23T14:41:27+05:30"
+      "Updated": "2023-02-15T16:36:29+05:30"
     },
     {
-      "Manifests": 256,
+      "Manifests": 258,
       "Name": "games",
       "Source": "https://github.com/Calinou/scoop-games",
-      "Updated": "2023-01-30T09:58:46+05:30"
+      "Updated": "2023-02-17T06:04:30+05:30"
     },
     {
       "Manifests": 254,
       "Name": "java",
       "Source": "https://github.com/ScoopInstaller/Java",
-      "Updated": "2023-01-30T06:42:47+05:30"
+      "Updated": "2023-02-16T21:53:38+05:30"
     },
     {
       "Manifests": 36,
       "Name": "jfut",
       "Source": "https://github.com/jfut/scoop-jfut.git",
-      "Updated": "2023-01-28T09:56:27+05:30"
+      "Updated": "2023-02-16T06:02:23+05:30"
     },
     {
       "Manifests": 6,
@@ -1402,10 +1479,10 @@
       "Updated": "2022-09-16T03:53:58+05:30"
     },
     {
-      "Manifests": 89,
+      "Manifests": 88,
       "Name": "knotuntied",
       "Source": "https://github.com/phanirithvij2000/scoop-knotuntied",
-      "Updated": "2023-01-28T04:48:18+05:30"
+      "Updated": "2023-02-05T20:55:57+05:30"
     },
     {
       "Manifests": 4,
@@ -1420,22 +1497,22 @@
       "Updated": "2022-01-28T01:01:17+05:30"
     },
     {
-      "Manifests": 1150,
+      "Manifests": 1166,
       "Name": "main",
       "Source": "https://github.com/ScoopInstaller/Main",
-      "Updated": "2023-01-30T10:00:53+05:30"
+      "Updated": "2023-02-17T06:06:06+05:30"
     },
     {
       "Manifests": 214,
       "Name": "nerd-fonts",
       "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
-      "Updated": "2023-01-25T00:44:56+05:30"
+      "Updated": "2023-02-12T21:45:34+05:30"
     },
     {
       "Manifests": 13,
       "Name": "nirose-node",
       "Source": "https://github.com/Nirose/node",
-      "Updated": "2023-01-27T08:09:23+05:30"
+      "Updated": "2023-02-05T09:40:23+05:30"
     },
     {
       "Manifests": 271,
@@ -1447,13 +1524,13 @@
       "Manifests": 80,
       "Name": "nonportable",
       "Source": "https://github.com/TheRandomLabs/scoop-nonportable",
-      "Updated": "2023-01-27T00:40:14+05:30"
+      "Updated": "2023-02-17T04:39:36+05:30"
     },
     {
-      "Manifests": 27,
+      "Manifests": 24,
       "Name": "retools",
       "Source": "https://github.com/TheCjw/scoop-retools.git",
-      "Updated": "2023-01-29T13:29:45+05:30"
+      "Updated": "2023-02-16T08:51:40+05:30"
     },
     {
       "Manifests": 12,
@@ -1471,7 +1548,7 @@
       "Manifests": 18,
       "Name": "scoop-rithvij",
       "Source": "https://github.com/phanirithvij/scop",
-      "Updated": "2023-01-19T01:03:36+05:30"
+      "Updated": "2023-02-01T08:06:40+05:30"
     },
     {
       "Manifests": 75,
@@ -1480,34 +1557,34 @@
       "Updated": "2021-06-02T00:42:53+05:30"
     },
     {
-      "Manifests": 1770,
+      "Manifests": 1781,
       "Name": "scoopextras",
       "Source": "https://github.com/scoopinstaller/extras",
-      "Updated": "2023-01-30T09:58:40+05:30"
+      "Updated": "2023-02-17T09:06:30+05:30"
     },
     {
       "Manifests": 10,
       "Name": "spotify",
       "Source": "https://github.com/TheRandomLabs/Scoop-Spotify.git",
-      "Updated": "2023-01-23T08:49:22+05:30"
+      "Updated": "2023-02-03T13:51:54+05:30"
     },
     {
       "Manifests": 412,
       "Name": "versions",
       "Source": "https://github.com/ScoopInstaller/Versions",
-      "Updated": "2023-01-30T10:05:24+05:30"
+      "Updated": "2023-02-17T07:37:35+05:30"
     },
     {
       "Manifests": 27,
       "Name": "younger",
       "Source": "https://github.com/younger-1/scoop-it",
-      "Updated": "2023-01-28T11:31:44+05:30"
+      "Updated": "2023-02-16T11:40:15+05:30"
     },
     {
-      "Manifests": 11516,
+      "Manifests": 11599,
       "Name": "zanderlli",
       "Source": "https://github.com/anderlli0053/DEV-tools.git/",
-      "Updated": "2023-01-30T10:34:55+05:30"
+      "Updated": "2023-02-17T09:38:46+05:30"
     }
   ],
   "config": {
