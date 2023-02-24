@@ -151,8 +151,8 @@
       "Info": "",
       "Name": "calibre",
       "Source": "extras",
-      "Updated": "2023-02-12T01:00:51.5568698+05:30",
-      "Version": "6.12.0"
+      "Updated": "2023-02-20T09:55:58.4821357+05:30",
+      "Version": "6.13.0"
     },
     {
       "Info": "",
@@ -193,8 +193,8 @@
       "Info": "",
       "Name": "curl",
       "Source": "main",
-      "Updated": "2023-02-17T09:45:20.4033173+05:30",
-      "Version": "7.88.0"
+      "Updated": "2023-02-24T10:49:21.7570366+05:30",
+      "Version": "7.88.1_1"
     },
     {
       "Info": "",
@@ -207,8 +207,8 @@
       "Info": "",
       "Name": "dart-dev",
       "Source": "versions",
-      "Updated": "2023-02-17T09:46:13.1130245+05:30",
-      "Version": "3.0.0-236.0.dev"
+      "Updated": "2023-02-24T10:50:30.3470662+05:30",
+      "Version": "3.0.0-263.0.dev"
     },
     {
       "Info": "",
@@ -216,13 +216,6 @@
       "Source": "main",
       "Updated": "2022-12-08T09:12:51.6568731+05:30",
       "Version": "0.15.1"
-    },
-    {
-      "Info": "",
-      "Name": "deno",
-      "Source": "main",
-      "Updated": "2023-02-12T01:23:45.6735257+05:30",
-      "Version": "1.30.3"
     },
     {
       "Info": "",
@@ -242,8 +235,8 @@
       "Info": "",
       "Name": "discordchatexporter",
       "Source": "extras",
-      "Updated": "2023-01-30T08:43:04.2394863+05:30",
-      "Version": "2.37.2"
+      "Updated": "2023-02-20T09:56:03.5400246+05:30",
+      "Version": "2.38"
     },
     {
       "Info": "",
@@ -258,13 +251,6 @@
       "Source": "nonportable",
       "Updated": "2023-02-03T10:32:17.8194283+05:30",
       "Version": "2.0.6.1000"
-    },
-    {
-      "Info": "",
-      "Name": "dolt",
-      "Source": "main",
-      "Updated": "2023-02-17T09:46:20.8181045+05:30",
-      "Version": "0.53.0"
     },
     {
       "Info": "",
@@ -361,8 +347,8 @@
       "Info": "",
       "Name": "ghq",
       "Source": "main",
-      "Updated": "2022-05-07T01:40:39.5122561+05:30",
-      "Version": "1.3.0"
+      "Updated": "2023-02-24T10:50:45.1413788+05:30",
+      "Version": "1.4.1"
     },
     {
       "Info": "",
@@ -522,8 +508,8 @@
       "Info": "",
       "Name": "jadx",
       "Source": "extras",
-      "Updated": "2022-10-31T05:46:55.9108416+05:30",
-      "Version": "1.4.5"
+      "Updated": "2023-02-21T20:08:00.5467542+05:30",
+      "Version": "1.4.6"
     },
     {
       "Info": "",
@@ -634,8 +620,8 @@
       "Info": "",
       "Name": "losslesscut",
       "Source": "extras",
-      "Updated": "2023-02-17T09:48:47.1926028+05:30",
-      "Version": "3.51.0"
+      "Updated": "2023-02-20T09:56:40.1260026+05:30",
+      "Version": "3.52.0"
     },
     {
       "Info": "",
@@ -851,8 +837,8 @@
       "Info": "",
       "Name": "pnpm",
       "Source": "main",
-      "Updated": "2023-02-12T01:45:34.6447999+05:30",
-      "Version": "7.27.0"
+      "Updated": "2023-02-20T09:56:55.0302453+05:30",
+      "Version": "7.27.1"
     },
     {
       "Info": "",
@@ -871,8 +857,8 @@
     {
       "Info": "",
       "Name": "python",
-      "Source": "D:\\Software\\Scoop\\buckets\\main\\bucket\\python.json",
-      "Updated": "2023-02-12T01:48:18.8953671+05:30",
+      "Source": "main",
+      "Updated": "2023-02-22T12:11:54.6233732+05:30",
       "Version": "3.11.2"
     },
     {
@@ -1019,8 +1005,8 @@
       "Info": "",
       "Name": "spotify-latest",
       "Source": "spotify",
-      "Updated": "2023-02-12T01:48:56.7869316+05:30",
-      "Version": "1.2.4.912.g949d5fd0"
+      "Updated": "2023-02-20T09:58:13.0761838+05:30",
+      "Version": "1.2.5.1006.g22820f93"
     },
     {
       "Info": "",
@@ -1033,8 +1019,8 @@
       "Info": "",
       "Name": "sqlite",
       "Source": "main",
-      "Updated": "2022-12-31T12:47:53.2074535+05:30",
-      "Version": "3.40.1"
+      "Updated": "2023-02-22T10:04:53.0697903+05:30",
+      "Version": "3.41.0"
     },
     {
       "Info": "",
@@ -1103,8 +1089,8 @@
       "Info": "",
       "Name": "termscp",
       "Source": "main",
-      "Updated": "2023-02-16T10:50:48.0612425+05:30",
-      "Version": "0.10.0"
+      "Updated": "2023-02-22T10:04:57.361632+05:30",
+      "Version": "0.11.0"
     },
     {
       "Info": "",
@@ -1117,8 +1103,8 @@
       "Info": "",
       "Name": "tightvnc",
       "Source": "extras",
-      "Updated": "2022-05-27T10:50:05.1316745+05:30",
-      "Version": "2.8.63"
+      "Updated": "2023-02-20T09:58:32.1358151+05:30",
+      "Version": "2.8.75"
     },
     {
       "Info": "",
@@ -1327,15 +1313,15 @@
       "Info": "",
       "Name": "yq",
       "Source": "main",
-      "Updated": "2023-01-18T13:13:14.9559376+05:30",
-      "Version": "4.30.8"
+      "Updated": "2023-02-21T20:08:04.5178117+05:30",
+      "Version": "4.31.1"
     },
     {
       "Info": "",
       "Name": "zig-dev",
       "Source": "versions",
-      "Updated": "2023-02-17T09:51:26.0709101+05:30",
-      "Version": "0.11.0-dev.1638"
+      "Updated": "2023-02-24T10:52:34.0083884+05:30",
+      "Version": "0.11.0-dev.1797"
     },
     {
       "Info": "",
@@ -1348,8 +1334,8 @@
       "Info": "Global install",
       "Name": "dotnet6-sdk",
       "Source": "versions",
-      "Updated": "2023-01-18T13:24:36.7739158+05:30",
-      "Version": "6.0.405"
+      "Updated": "2023-02-21T20:09:55.4537164+05:30",
+      "Version": "6.0.406"
     },
     {
       "Info": "Global install",
@@ -1395,6 +1381,13 @@
     },
     {
       "Info": "Global install",
+      "Name": "rustdesk",
+      "Source": "extras",
+      "Updated": "2023-02-20T11:03:19.961862+05:30",
+      "Version": "1.1.9"
+    },
+    {
+      "Info": "Global install",
       "Name": "sudo",
       "Source": "main",
       "Updated": "2021-11-02T00:52:26.2563626+05:30",
@@ -1434,43 +1427,43 @@
       "Manifests": 228,
       "Name": "dorado",
       "Source": "https://github.com/chawyehsu/dorado.git",
-      "Updated": "2023-02-17T05:44:08+05:30"
+      "Updated": "2023-02-24T05:43:55+05:30"
     },
     {
       "Manifests": 84,
       "Name": "emulators",
       "Source": "https://github.com/hermanjustnu/scoop-emulators.git",
-      "Updated": "2023-02-17T08:24:04+05:30"
+      "Updated": "2023-02-24T08:19:55+05:30"
     },
     {
-      "Manifests": 1782,
+      "Manifests": 1784,
       "Name": "extras",
       "Source": "https://github.com/mockuser404/extras.git",
-      "Updated": "2023-02-17T09:06:30+05:30"
+      "Updated": "2023-02-24T10:43:25+05:30"
     },
     {
       "Manifests": 148,
       "Name": "fonts-knotuntied",
       "Source": "https://github.com/phanirithvij2000/fonts-knotuntied.git",
-      "Updated": "2023-02-15T16:36:29+05:30"
+      "Updated": "2023-02-19T03:40:14+05:30"
     },
     {
       "Manifests": 258,
       "Name": "games",
       "Source": "https://github.com/Calinou/scoop-games",
-      "Updated": "2023-02-17T06:04:30+05:30"
+      "Updated": "2023-02-24T09:59:21+05:30"
     },
     {
       "Manifests": 254,
       "Name": "java",
       "Source": "https://github.com/ScoopInstaller/Java",
-      "Updated": "2023-02-16T21:53:38+05:30"
+      "Updated": "2023-02-23T09:50:23+05:30"
     },
     {
       "Manifests": 36,
       "Name": "jfut",
       "Source": "https://github.com/jfut/scoop-jfut.git",
-      "Updated": "2023-02-16T06:02:23+05:30"
+      "Updated": "2023-02-21T17:59:43+05:30"
     },
     {
       "Manifests": 6,
@@ -1482,7 +1475,7 @@
       "Manifests": 88,
       "Name": "knotuntied",
       "Source": "https://github.com/phanirithvij2000/scoop-knotuntied",
-      "Updated": "2023-02-05T20:55:57+05:30"
+      "Updated": "2023-02-22T23:54:15+05:30"
     },
     {
       "Manifests": 4,
@@ -1497,22 +1490,22 @@
       "Updated": "2022-01-28T01:01:17+05:30"
     },
     {
-      "Manifests": 1166,
+      "Manifests": 1169,
       "Name": "main",
       "Source": "https://github.com/ScoopInstaller/Main",
-      "Updated": "2023-02-17T06:06:06+05:30"
+      "Updated": "2023-02-24T09:58:44+05:30"
     },
     {
       "Manifests": 214,
       "Name": "nerd-fonts",
       "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
-      "Updated": "2023-02-12T21:45:34+05:30"
+      "Updated": "2023-02-20T21:46:09+05:30"
     },
     {
       "Manifests": 13,
       "Name": "nirose-node",
       "Source": "https://github.com/Nirose/node",
-      "Updated": "2023-02-05T09:40:23+05:30"
+      "Updated": "2023-02-23T17:15:08+05:30"
     },
     {
       "Manifests": 271,
@@ -1524,7 +1517,7 @@
       "Manifests": 80,
       "Name": "nonportable",
       "Source": "https://github.com/TheRandomLabs/scoop-nonportable",
-      "Updated": "2023-02-17T04:39:36+05:30"
+      "Updated": "2023-02-22T00:34:29+05:30"
     },
     {
       "Manifests": 24,
@@ -1545,7 +1538,7 @@
       "Updated": "2021-01-06T18:00:27+05:30"
     },
     {
-      "Manifests": 18,
+      "Manifests": 19,
       "Name": "scoop-rithvij",
       "Source": "https://github.com/phanirithvij/scop",
       "Updated": "2023-02-01T08:06:40+05:30"
@@ -1557,34 +1550,34 @@
       "Updated": "2021-06-02T00:42:53+05:30"
     },
     {
-      "Manifests": 1781,
+      "Manifests": 1783,
       "Name": "scoopextras",
       "Source": "https://github.com/scoopinstaller/extras",
-      "Updated": "2023-02-17T09:06:30+05:30"
+      "Updated": "2023-02-24T06:02:31+05:30"
     },
     {
       "Manifests": 10,
       "Name": "spotify",
       "Source": "https://github.com/TheRandomLabs/Scoop-Spotify.git",
-      "Updated": "2023-02-03T13:51:54+05:30"
+      "Updated": "2023-02-23T18:07:19+05:30"
     },
     {
-      "Manifests": 412,
+      "Manifests": 415,
       "Name": "versions",
       "Source": "https://github.com/ScoopInstaller/Versions",
-      "Updated": "2023-02-17T07:37:35+05:30"
+      "Updated": "2023-02-24T10:07:15+05:30"
     },
     {
       "Manifests": 27,
       "Name": "younger",
       "Source": "https://github.com/younger-1/scoop-it",
-      "Updated": "2023-02-16T11:40:15+05:30"
+      "Updated": "2023-02-22T11:38:56+05:30"
     },
     {
       "Manifests": 11599,
       "Name": "zanderlli",
       "Source": "https://github.com/anderlli0053/DEV-tools.git/",
-      "Updated": "2023-02-17T09:38:46+05:30"
+      "Updated": "2023-02-24T10:35:58+05:30"
     }
   ],
   "config": {
